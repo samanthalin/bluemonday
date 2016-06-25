@@ -1,0 +1,226 @@
+.logo {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.logo-img{
+	width: 67px;
+	height: auto;
+}
+
+.site-title-text{
+	padding-left: 15px;
+}
+.site-title-text h1, .site-title-text h2 { margin: 0; }
+
+#babber #banner-left p {
+  color: white;
+  font-size: 35px;
+  background-color: #2c3e50;
+}
+
+.site-brand-container{
+	position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.cover{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.8);
+  z-index: 9999;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pop-up-close{
+  font-size: 35px;
+  position: absolute;
+  /* float: right; */
+  margin-top: -17px;
+  margin-left: 385px;
+  color: #cfcfcf;
+  cursor: pointer;
+  z-index: 1;
+}
+.pop-up-close:hover{
+  color: black;
+}
+.pop-up{
+  position: center;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+}
+#same-category-video{
+  //width: initial;
+}
+/*for Google Ad*/
+
+#content{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+img.bitnami-corner-image{
+  display: none;
+}
+
+#bitnami-banner:hover{
+  display: none;
+}
+
+.content-area {
+    margin-top: 20px;
+}
+
+#fb-root{
+  margin-top: 20px;
+}
+#___ytsubscribe_0{
+  margin-bottom: 20px;
+}
+.more-video h3{
+  line-height: 2.2;
+}
+.fb-like{
+  margin-bottom: 16px;
+  margin-left: 3px;
+}
+
+/*footer*/
+footer .footer-title{
+  float: left;
+  display: block;
+}
+footer .footer-menu{
+  float: left;
+  margin-left: 20px;
+  padding-top: 29px;
+}
+footer .footer-menu a {padding-right: 3px;}
+footer .footer-menu a:hover{color: #2356a1;}
+footer .footer-menu span{padding-right: 3px;}
+footer .contact{    
+  float: right;
+  font-size: 11px;
+  margin-top: -45px;
+}
+footer .copyright{float: left; clear: both; font-size: 13px; margin-top: 15px;}
+footer h1{
+  margin-bottom: 0;
+}
+footer .login-link{
+  position: relative;
+  float: left;
+  clear: both;
+  font-weight: lighter;
+  font-size: 12px;
+}
+footer .login-link:hover{
+  color: #235EA7;
+}
+
+@media (max-width: 999px) {
+  #banner{
+    height: initial!important;
+  }
+  .awaken-search-button-icon{
+    display: none;
+  }
+  .top-nav .container{
+    padding: 0;
+  }
+  .top-nav .container .row{
+    margin: 0;
+  }
+  .top-nav .container .row .col-xs-12{
+    padding: 0;
+  }
+  .bx-controls-direction{
+    display: none;
+  }
+  .site-brand-container {
+    position: relative;
+    top: 63px;
+    left: 11px;
+  }
+  .logo-img, .site-description{
+    display: none;
+  }
+  .site-title a{
+    opacity: 0;
+  }
+  #fixed-top-bar{
+    padding: 0;
+  }
+  #main-nav-button{
+    margin: 0;
+  }
+  .site-header{
+    height: 190px!important;
+    background-position-y: 100%;
+  }
+  #banner-left{
+    padding: 0 !important;
+    height: initial !important;
+    margin-bottom: 12px;
+  }
+  #banner-left p{
+    font-size: 16px !important;
+    padding: 8px 15px !important;
+  }
+  #container {
+    //margin-top: 255px;
+  }
+  .container {
+    width:100%;
+  }
+  .pop-up{
+    position: center;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+  }
+  .pop-up-close{
+    display: none;
+  }
+  .pop-up:after{
+   	font-family: FontAwesome;
+   	content: "<<關閉廣告>>";
+   	font-size: 17px !important;
+    position: absolute;
+    margin-top: 0;
+    margin-left: -60px;
+    color: #ffffff;
+    z-index: 1;
+    left: 50%;
+  }
+  .fb-like span{
+    width: 100% !important;
+    margin-bottom: 9px;
+  }
+  footer .footer-title{float: none;}
+  footer .footer-menu{float: none; padding: 0; margin: 0;}
+  footer .footer-menu a {padding-right: 3px;}
+  footer .footer-menu a:hover{color: #2356a1;}
+  footer .footer-menu span{padding-right: 3px;}
+  footer .contact{
+    float: none;
+    margin-top: 8px;
+    margin-bottom: 72px;
+  }
+  footer .copyright{
+    float: none;
+    font-size: 11px;
+    position: absolute;
+    margin-top: 80px;
+    padding-right: 5px;
+  }
+
+
